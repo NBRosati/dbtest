@@ -33,7 +33,19 @@ git branch -M main
 git remote add origin https://github.com/NBRosati/dbtest.git
 
 -               crear una nueva rama
-git
+git checkout -b branchname     (-b=flag branch to create and go to this branch)
+                                            olso with git branch <branch-name>
+
+-               git add . / git commit -m "change in branch 2"
+git push origin branch2
+-               unirlos
+git checkout main
+git merge branch2
+(write text, esc, :wq (write and quit))
+git push origin master
+
+-----------------------------------------------------------------------------------------
+
 
 -- clonar repo
 git clone URL
