@@ -23,7 +23,35 @@ git commands
 git init
 git add .
 git status
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/NBRosati/dbtest.git
 
 
 --- ejemplo para remover un archivo llamado pwd.tt
 git rm --cached pwd.txt
+
+-- setear la rama
+The -M flag in the command stands for "move/rename" and is used to forcefully move or rename the branch.
+historically set to "master." his command is used to rename the current branch to "main" (or any other specified name)
+git branch -M main
+
+-- u flag
+The -u flag, short for --set-upstream, is used to set the upstream branch for the current branch you're pushing.
+
+git init: Initializes a new Git repository in the current directory.
+git clone [repository URL]: Creates a local copy of a remote repository on your machine.
+git add [file]: Adds a file or changes in a file to the staging area.
+git commit -m "[message]": Records changes to the repository with a descriptive message.
+git status: Shows the current state of the repository, including modified files and files in the staging area.
+git push: Uploads local commits to a remote repository.
+git pull: Fetches changes from a remote repository and merges them into the current branch.
+git branch: Lists all branches in the repository.
+git checkout [branch name]: Switches to a specified branch.
+git merge [branch name]: Combines changes from the specified branch into the current branch.
+git remote: Lists the remote repositories associated with the current repository.
+git log: Displays a history of commits.
+git diff: Shows the differences between the working directory, staging area, and the last commit.
+git stash: Temporarily saves changes that are not ready to be committed.
+git reset: Discards changes in the working directory or unstages files from the staging area.
+git rm [file]: Removes a file from the repository.
