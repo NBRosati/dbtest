@@ -19,14 +19,24 @@ You can initialize this repository with code from a Subversion, Mercurial, or TF
 --------------
 
 git commands
-
+-               iniciar
 git init
+-               listar los archivos a añadir
 git add .
+-               verificar estado
 git status
+-               commit de los archivos (los añade)
 git commit -m "first commit"
+-               configurar la rama
 git branch -M main
+-               añadirlo al repo remoto
 git remote add origin https://github.com/NBRosati/dbtest.git
 
+-               crear una nueva rama
+git
+
+-- clonar repo
+git clone URL
 
 --- ejemplo para remover un archivo llamado pwd.tt
 git rm --cached pwd.txt
