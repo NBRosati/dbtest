@@ -1,4 +1,4 @@
-github text
+GIThub
 
 …or create a new repository on the command line
 echo "# dbtest" >> README.md
